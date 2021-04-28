@@ -40,9 +40,7 @@ dataset = load_from_disk("./data/train_dataset/")
 print(dataset)
 ```
 
-Retrieval 과정에서 사용하는 문서 집합(corpus)은 ./data/wikipedia_documents.json 으로 저장되어있습니다. 약 5만 7천개의 unique 한 문서로 이루어져 있습니다.
-평가 데이터는 학습데이터와 대부분 동일하나, 리더보드용인 test_dataset 의 데이터에는 id 와 question 만 주어집니다. 즉 Open Domain QA 전용이며, 답을 내기 위해서 ./data/wikipedia_documents.json 을 활용합니다.
-데이터셋은 편의성을 위해 Huggingface 에서 제공하는 datasets를 이용하여 pyarrow 형식의 데이터로 저장되어있습니다. 다음은 데이터셋의 구성입니다.
+Retrieval 과정에서 사용하는 문서 집합(corpus)은 ./data/wikipedia_documents.json 으로 저장되어있습니다. 약 5만 7천개의 unique 한 문서로 이루어져 있습니다. 평가 데이터는 학습데이터와 대부분 동일하나, 리더보드용인 test_dataset 의 데이터에는 id 와 question 만 주어집니다. 즉 Open Domain QA 전용이며, 답을 내기 위해서 ./data/wikipedia_documents.json 을 활용합니다. 데이터셋은 편의성을 위해 Huggingface 에서 제공하는 datasets를 이용하여 pyarrow 형식의 데이터로 저장되어있습니다. 다음은 데이터셋의 구성입니다.
 
 ```
 ./data/         # 전체 데이터
@@ -63,5 +61,4 @@ Retrieval 과정에서 사용하는 문서 집합(corpus)은 ./data/wikipedia_do
 
 # 평가 데이터 개요
 
-평가 데이터는 학습데이터와 대부분 동일하나, 리더보드용인 testdataset 의 데이터에는 id 와 question 만 주어집니다. 즉 Open Domain QA 전용이며, 답을 내기 위해서 ./data/wikipediadocuments.json 을 활용합니다.
-대회가 종료된 후에는 한 번도 보지 못했던 테스트 데이터를 기반으로 최종 등수가 결정됩니다.
+평가 데이터는 학습데이터와 대부분 동일하나, 리더보드용인 testdataset 의 데이터에는 id 와 question 만 주어집니다. 즉 Open Domain QA 전용이며, 답을 내기 위해서 ./data/wikipediadocuments.json 을 활용합니다. 대회가 종료된 후에는 한 번도 보지 못했던 테스트 데이터를 기반으로 최종 등수가 결정됩니다.
