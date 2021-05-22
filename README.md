@@ -67,6 +67,11 @@ Retrieval 과정에서 사용하는 문서 집합(corpus)은 ./data/wikipedia_do
 ```
 $> tree -d
 .
+├── Dense Passage Retriever.ipynb
+├── Elasticsearch.ipynb
+├── Ensemble.ipynb
+├── Exploratory Data Analysis.ipynb
+└── Generation-based MRC.ipynb
 ```
 
 # Wrap up Report
@@ -129,7 +134,7 @@ $> tree -d
 6. Bert Embedding을 이용한 Retrieval
 7. Pyserini 라이브러리 사용
 
-## <학습과정에서의 교훈>
+## 학습과정에서의 교훈
 
 ### 학습과 관련하여 개인과 동료로서 얻은 교훈
 - 개인으로 진행하는 competition과 팀으로 진행하는 competition의 전략은 달라야 한다는 것을 배웠습니다.
@@ -143,7 +148,7 @@ $> tree -d
 - 첫째, 다른 팀원들의 실험 내용을 참고할 수 있었습니다.
 - 둘째, 제 실험 내용을 설명하기 위해 스스로 한 번 정리한다는 것입니다.
 
-## <마주한 한계와 도전숙제>
+## 마주한 한계와 도전숙제
 
 ### 아쉬웠던 점들
 - 저는 이번 스테이지에서 1등을 하고 싶었습니다.
