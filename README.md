@@ -78,7 +78,7 @@ $> tree -d
 
 ## 기술적인 도전
 
-### [Github Repo](https://github.com/bcaitech1/p3-mrc-tajo)
+### [Team Github Repo](https://github.com/bcaitech1/p3-mrc-tajo)
 
 ### 본인의 점수 및 순위
 - Public : LB 점수 EM: 66.25%, F1: 78.70%, 2등
